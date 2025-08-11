@@ -1,0 +1,13 @@
+digraph {
+	A [label="Landmass A"]
+	B [label="Landmass B"]
+	C [label="Landmass C"]
+	D [label="Landmass D"]
+	A -> B [label="Bridge 1"]
+	A -> C [label="Bridge 2"]
+	A -> D [label="Bridge 3"]
+	B -> C [label="Bridge 4"]
+	B -> D [label="Bridge 5"]
+	C -> D [label="Bridge 6"]
+	C -> A [label="Bridge 7"]
+}
