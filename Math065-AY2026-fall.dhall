@@ -1,4 +1,4 @@
--- Time-stamp: <2025-03-31 Mon 09:25 EDT - george@podkayne>
+-- Time-stamp: <2025-08-14 Thu 14:25 EDT - george@valhalla>
 let Dow = < Mon | Tue | Wed | Thu | Fri | Sat | Sun >
 
 let concat = https://prelude.dhall-lang.org/List/concat
@@ -69,57 +69,71 @@ let lectures =
         { sched =
           [ ScheduleDetails.DowTufts
               { dow = Dow.Mon
-              , time = { start = "10:30", end = "11:45" }
-              , location = "JCC 280"
+              , time = { start = "10:30", end = "11:20" }
+              , location = "JCC 502"
               }
           , ScheduleDetails.DowTufts
               { dow = Dow.Wed
-              , time = { start = "10:30", end = "11:45" }
-              , location = "JCC 280"
+              , time = { start = "10:30", end = "11:20" }
+              , location = "JCC 502"
+              }
+          , ScheduleDetails.DowTufts
+              { dow = Dow.Fri
+              , time = { start = "10:30", end = "11:20" }
+              , location = "JCC 502"
               }
           ]
         , topics = ./topics/lectures.dhall : List Text
         , description = "course lecture"
         }
 
-let FinalProject =
-      CourseComponent.Assignment
-        { description = "Final Project Due"
-        , sched =
-          [ ScheduleDetails.DateDue { date = "2025-04-13", deadline = "23:59" }
-          , ScheduleDetails.DateDue { date = "2025-05-02", deadline = "23:59" }
-          ]
-        , assignments = [ "Final project proposals due", "Final Project Due" ]
-        }
-
-let Quizzes =
+let midterm1 =
       CourseComponent.Exam
-        { sched =
+        { description = "Midterm 1"
+        , sched =
           [ ScheduleDetails.Date
-              { date = "2025-02-26"
-              , time = { start = "10:30", end = "11:45" }
-              , location = "JCC 280"
-              }
-          , ScheduleDetails.Date
-              { date = "2025-04-09"
-              , time = { start = "10:30", end = "11:45" }
-              , location = "JCC 280"
+              { date = "2025-10-03"
+              , time = { start = "10:30", end = "11:20" }
+              , location = "JCC 502"
               }
           ]
-        , description = "in-class quizzes (~20-30 minute)"
         }
 
-in  [ { courseAY = "AY2024-2025"
-      , courseSem = "spring"
-      , title = "Math087"
+let midterm2 =
+      CourseComponent.Exam
+        { description = "Midterm 2"
+        , sched =
+          [ ScheduleDetails.Date
+              { date = "2025-11-07"
+              , time = { start = "10:30", end = "11:20" }
+              , location = "JCC 502"
+              }
+          ]
+        }
+
+let final-exam =
+      CourseComponent.Exam
+        { description = "Final Exam"
+        , sched =
+          [ ScheduleDetails.Date
+              { date = "2025-12-13"
+              , time = { start = "23:59", end = "" }
+              , location = "TBA"
+              }
+          ]
+        }
+
+in  [ { courseAY = "AY2025-2026"
+      , courseSem = "fall"
+      , title = "Math065"
       , sections = [ "01" ]
       , chair = "George McNinch"
       , instructors = [] : List Text
       , tas = [ "" ]
-      , courseDescription = "Mathematical Modelling"
+      , courseDescription = "Bridge to Higher Math"
       , target =
-        { dir = "course-pages", base = "Math087", org = "/home/george/org/" }
-      , courseComponents = [ lectures, homework, FinalProject, Quizzes ]
+        { dir = "course-pages", base = "Math065", org = "/home/george/org/" }
+      , courseComponents = [ lectures, homework, midterm1, midterm2 ]
       , courseTasks = tasks : List Task
       }
     ]
