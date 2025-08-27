@@ -1,4 +1,4 @@
--- Time-stamp: <2025-08-14 Thu 14:25 EDT - george@valhalla>
+-- Time-stamp: <2025-08-27 Wed 15:28 EDT - george@sortilege>
 let Dow = < Mon | Tue | Wed | Thu | Fri | Sat | Sun >
 
 let concat = https://prelude.dhall-lang.org/List/concat
@@ -43,15 +43,15 @@ let Task =
 let tasks =
         [ Task.Meeting
             { description = "Office hours"
-            , dow = Dow.Wed
-            , time = { start = "13:30", end = "14:30" }
+            , dow = Dow.Mon
+            , time = { start = "14:30", end = "15:30" }
             , location = "JCC 559"
             }
         , Task.Meeting
             { description = "Office hours"
             , dow = Dow.Thu
-            , time = { start = "14:30", end = "15:30" }
-            , location = "JCC 559"
+            , time = { start = "14:00", end = "15:00" }
+            , location = "JCC 574 math library"
             }
         ]
       : List Task
