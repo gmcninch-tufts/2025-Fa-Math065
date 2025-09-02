@@ -62,6 +62,7 @@ title: Math065 - Bridge to Higher Math - AY2025-2026 fall
   | 12/12 | Fri | Tufts   |     | 15   | **Academic Date:** *Final Exams*                          |
   | 12/13 | Sat | Tufts   |     | 15   | **Academic Date:** *Final Exams*                          |
   | 12/14 | Sun | Tufts   |     | 15   | **Academic Date:** *Final Exams*                          |
+  | 12/15 | Mon | Exam    |     | 16   | **Final Exam**                                            |
   | 12/15 | Mon | Tufts   |     | 16   | **Academic Date:** *Final Exams*                          |
   | 12/16 | Tue | Tufts   |     | 16   | **Academic Date:** *Final Exams*                          |
   | 12/17 | Wed | Tufts   |     | 16   | **Academic Date:** *Final Exams*                          |

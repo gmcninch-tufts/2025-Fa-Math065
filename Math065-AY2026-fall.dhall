@@ -1,4 +1,4 @@
--- Time-stamp: <2025-08-27 Wed 15:30 EDT - george@sortilege>
+-- Time-stamp: <2025-09-02 Tue 09:19 EDT - george@valhalla>
 let Dow = < Mon | Tue | Wed | Thu | Fri | Sat | Sun >
 
 let concat = https://prelude.dhall-lang.org/List/concat
@@ -116,8 +116,8 @@ let final-exam =
         { description = "Final Exam"
         , sched =
           [ ScheduleDetails.Date
-              { date = "2025-12-13"
-              , time = { start = "23:59", end = "" }
+              { date = "2025-12-15"
+              , time = { start = "12:00", end = "14:00" }
               , location = "TBA"
               }
           ]
@@ -133,7 +133,8 @@ in  [ { courseAY = "AY2025-2026"
       , courseDescription = "Bridge to Higher Math"
       , target =
         { dir = "course-pages", base = "Math065", org = "/home/george/org/" }
-      , courseComponents = [ lectures, homework, midterm1, midterm2 ]
+      , courseComponents =
+        [ lectures, homework, final-exam, midterm1, midterm2 ]
       , courseTasks = tasks : List Task
       }
     ]

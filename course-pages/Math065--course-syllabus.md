@@ -55,7 +55,8 @@ Here are details on these course components:
   - Midterm 2 - Nov 7 10:30-11:20
 
 - 1 *final exam* 
-  - time and date TBA
+
+  - Dec 15, 12:00-14:00
 
 Please refer to the course website for details on expectations
 concerning these course components.
