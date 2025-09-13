@@ -2,6 +2,10 @@
 title: Math065 - Course Info
 ---
 
+# Lecture notes
+
+- [lecture notes](/course-content/bridge-to-higher-math.pdf)
+
 # Syllabus
 
 - [Course syllabus](/course-pages/Math065--course-syllabus.html) (or

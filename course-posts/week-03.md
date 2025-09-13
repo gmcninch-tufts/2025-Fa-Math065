@@ -3,7 +3,11 @@ title   : Week 3
 date    : 2025-09-15
 ---
 
-- [lecture notes](/course-content/bridge-to-higher-math.pdf) Week 3 material begins on p. .
+This week, we are going to learn about using mathematical induction -
+including something called _strong induction_. And we will discuss
+sequences and recurrence relationships.
 
-- [problem set 2](/course-content/2025-09-15--ps-02.pdf) 
+- [lecture notes](/course-content/bridge-to-higher-math.pdf) Week 3 material begins on p. 18.
+
+- [problem set 3](/course-content/2025-09-22--ps-03.pdf) 
 
