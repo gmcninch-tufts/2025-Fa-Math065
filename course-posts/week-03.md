@@ -11,3 +11,4 @@ sequences and recurrence relationships.
 
 - [problem set 3](/course-content/2025-09-22--ps-03.pdf) 
 
+   Note: Problem set 3 was updated on [2025-09-16] (originally, I had made a copy-paste error...)!
