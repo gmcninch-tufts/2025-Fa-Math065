@@ -9,7 +9,7 @@
   , "Functions"
   , "Functions"
   , "Bijections"
-  , "Bijections"
+  , "cardinality"
   , "review"
   , "midterm 1"
   , "Cardinality"

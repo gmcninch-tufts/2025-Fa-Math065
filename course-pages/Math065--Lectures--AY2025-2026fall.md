@@ -19,7 +19,7 @@ title: Math065 - Bridge to Higher Math - AY2025-2026 fall
   | 09/22 | Mon | Lecture | 9   | 4    | Functions                                                 |
   | 09/24 | Wed | Lecture | 10  | 4    | Functions                                                 |
   | 09/26 | Fri | Lecture | 11  | 4    | Bijections                                                |
-  | 09/29 | Mon | Lecture | 12  | 5    | Bijections                                                |
+  | 09/29 | Mon | Lecture | 12  | 5    | cardinality                                               |
   | 10/01 | Wed | Lecture | 13  | 5    | review                                                    |
   | 10/03 | Fri | Lecture | 14  | 5    | midterm 1                                                 |
   | 10/03 | Fri | Exam    |     | 5    | **Midterm 1**                                             |
