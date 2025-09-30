@@ -12,5 +12,6 @@ I won't collect any homework Monday Oct 6.
 
 - [lecture notes](/course-content/bridge-to-higher-math.pdf)  (updated. Week 5 material begins on p. 39).
 
-- [review material for exam 1](/course-content/exam1-review.pdf) I'll post solutions next on Tuesday Sep 30.  
-  **updated the review problems** [2025-09-29] to fix an error in problem 6b. 
+- [review material for exam 1](/course-content/exam1-review.pdf)   
+  **updated the review problems** [2025-09-29] to fix an error in problem 6b.   
+  [solutions](/course-content/exam1-review-sols.pdf)
