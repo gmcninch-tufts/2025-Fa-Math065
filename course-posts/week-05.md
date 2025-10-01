@@ -15,4 +15,4 @@ I won't collect any homework Monday Oct 6.
 - [review material for exam 1](/course-content/exam1-review.pdf)   
   **updated the review problems** [2025-09-29] to fix an error in problem 6b.   
   [solutions](/course-content/exam1-review-sols.pdf)  
-  **updated [2025-10-01] to fix solutions to problem 3.
+  **updated solutions** [2025-10-01] to fix solution to problem 3.
