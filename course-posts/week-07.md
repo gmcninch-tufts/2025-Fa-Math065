@@ -1,6 +1,6 @@
 ---
-title   : Week 6
-date    : 2025-10-06
+title   : Week 7
+date    : 2025-10-15
 ---
 
 This week, we'll relations, equivalence relations and equivalence clases.
