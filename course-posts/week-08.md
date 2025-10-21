@@ -11,3 +11,6 @@ I'll get the next homework posted by Tuesday. (Hopefully sometime on Monday).
 - [lecture notes](/course-content/bridge-to-higher-math.pdf)  (updated. Week 8 material begins on p. 58).
 
 
+- [problem set 8](/course-content/2025-10-27--ps-08.pdf)   
+  Note that there is no "problem set 7" -- I hope to keep the problem
+  set numbers in sync with the week number.
