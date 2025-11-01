@@ -9,4 +9,4 @@ exam on Friday.
 - [lecture notes](/course-content/bridge-to-higher-math.pdf)  (Week 10 material begins on p. 70).
 
 
-- review material will be posted by Monday.
+- [review material](/course-content/exam2-review.pdf) (solutions to be posted by Wednesday)
