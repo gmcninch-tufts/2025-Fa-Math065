@@ -10,4 +10,4 @@ exam on Friday.
 
 
 - [review material](/course-content/exam2-review.pdf)   
-  [review solutions][(/course-content/exam2-review-solutions.pdf)
+  [review solutions](/course-content/exam2-review-solutions.pdf)
