@@ -8,4 +8,5 @@ and some counting problems.
 
 - [lecture notes](/course-content/bridge-to-higher-math.pdf)  (updated. Week 6 material begins on p. 44).
 
-- [problem set 6](/course-content/2025-10-13--ps-06.pdf) 
+- [problem set 6](/course-content/2025-10-13--ps-06.pdf)   
+  [solutions](/course-content/2025-10-13--ps-06-solutions.pdf)
