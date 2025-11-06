@@ -11,3 +11,4 @@ I'll get the next homework posted by Tuesday.
 
 
 - [problem set 9](/course-content/2025-11-03--ps-09.pdf)   
+  [solutions](/course-content/2025-11-03--ps-09--solutions.pdf)
